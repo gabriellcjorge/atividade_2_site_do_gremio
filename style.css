@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: #580202;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: #580202;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: #CC0000;
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -76,7 +76,7 @@ footer {
 .barra-sticky{
     position: sticky;
     top: 0px;
-    background-color: yellow;
+    background: linear-gradient(45deg, #8B0000, #CC0000, #e71c1c);
     color:#0b0f1a;
     padding: 12px;
     font-weight: bold;
@@ -138,4 +138,29 @@ footer {
     color: rgb(7, 49, 98);
     border: 3px solid rgb(7, 49, 98);
     border-radius: 20px;
+}
+.posicao{
+    text-align: center;
+}
+
+.bonecos{
+ 
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogadores {
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_mascote{
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+    width: 80px;
 }
